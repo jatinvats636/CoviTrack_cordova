@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+  color: #525f7f;
+  /* color: rgb(149, 162, 186); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  /* background-color: #d6d6d6; */
+  background-color: #212224;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: 700;
+  /* color: #32325f; */
+  color: rgb(161, 175, 202);
+  margin: 0;
+}
+
+.text-muted {
+  color: #727f8d !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.shadow {
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.container {
+  width: 88%;
+  height: auto;
+  /* background: #f4f8fd; */
+  background: rgb(18, 18, 19);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+img {
+  width: 15%;
+  margin-top: 15%;
+}
+
+h1.title {
+  font-size: 2em;
+  font-weight: 900;
+  text-align: center;
+  margin: 2em 0;
+  margin-top: 0.4em;
+  color: rgb(163, 177, 206);
+}
+
+.col {
+  max-width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  /* background-color: #fff; */
+  background-color: #000000;
+  background-clip: border-box;
+  border: 0;
+  box-shadow: 0px 0px 15px 4px rgba(30, 33, 36, 0.247);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.card-body {
+  min-height: 1px;
+  padding: 1.5rem;
+  display: flex;
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+}
+
+.card-body .h2 {
+  font-size: 2rem;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  max-width: 100%;
+  flex: 0 0 auto;
+}
+
+.icon-shape {
+  display: inline-flex;
+  padding: 12px;
+  text-align: center;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-shape i,
+.icon-shape svg {
+  font-size: 2rem;
+}
+
+.bg-gradient-red {
+  background: linear-gradient(87deg, #b11938 0, #2c45d87c 100%) !important;
+}
+
+.bg-gradient-blue {
+  background: linear-gradient(87deg, #16be56 0, #093a7a 100%) !important;
+}
+
+.bg-gradient-green {
+  background: linear-gradient(87deg, #1abe4b 0, #4b4005 100%) !important;
+}
+
+.bg-gradient-orange {
+  background: linear-gradient(87deg, #209b66 0, #551166a8 100%) !important;
+}

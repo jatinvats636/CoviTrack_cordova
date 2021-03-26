@@ -10,7 +10,7 @@ var settings = {
   method: "GET",
   headers: {
     "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
-    "x-rapidapi-key": "7ab5bc98e5msh2a02aa319f5d355p1f98bdjsn76fd281af303",
+    "x-rapidapi-key": "<Enter your key here>",
   },
 };
 
